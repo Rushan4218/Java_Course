@@ -38,6 +38,6 @@ public class Main {
 
     // Printing info
     rushan.printInfo();
-    System.out.println("Faculty: " + csFaculty.name + ", Duration: " + csFaculty.duration + " years");
+    csFaculty.printInfo();
   }
 }
