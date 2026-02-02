@@ -1,6 +1,6 @@
 package inheritance;
 
-class MyMath {
+class Math {
   public int add(int a, int b) {
     return a + b;
   }
@@ -10,17 +10,22 @@ class MyMath {
   }
 }
 
-class Calc extends MyMath {
-
+class Calculator extends Math {
+  public int multiply(int a, int b) {
+    return a * b;
+  }
 }
 
 class Main {
   public static void main(String[] args) {
-    System.out.println();
-  }
+    Calculator myCalc = new Calculator();
+    int a = 30, b = 20;
+    int sum = myCalc.add(30, 20);
+    int difference = myCalc.subtract(30, 20);
+    int product = myCalc.multiply(30, 20);
 
-  Calc myCalc = new Calc();
-  int a = 30, b = 20;
-  int sum = myCalc.add(30, 20);
-  int difference = myCalc.subtract(30, 20);
+    System.out.println("The sum of " + a + " and " + b + "is: " + sum);
+    System.out.println("The difference of " + a + " and " + b + "is: " + difference);
+    System.out.println("The product of " + a + " and " + b + "is: " + product);
+  }
 }

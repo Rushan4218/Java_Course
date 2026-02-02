@@ -76,4 +76,40 @@ Collection<Integer> numbers = new Collection<int>();
 - **Multi-Level**: A class inherits from a class which is already inherited from another class. 
 - **Multiple**: A class inherits from more than one parent class.
 
-_Multiple inheritance is not supported by Java_
+_Multiple inheritance is not directly supported by Java_
+
+###### Interface
+Interface in java is a collection of abstract methods and constants. It is used to define a blueprint for any class that implements it.
+
+**Characteristics of Interfaces:**
+
+1. **Abstract**: An interface cannot be instantiated on its own.
+2. **Must implement all methods**: Any class that implements an interface must provide an implementation for all the methods defined in the interface.
+3. **Can only contain method signatures**: An interface can only declare abstract methods, constants, and static methods (from Java 8 onwards).
+4. **No state**: Interfaces cannot have instance variables or any state.
+
+Examples:
+
+```java
+public interface Animal {
+  void eat();
+  void sleep();
+
+  int MAX_AGE = 25;
+}
+
+public class Dog implements Animal {
+  @override
+  public void eat() {
+    System.out.println("The dog is eating.");
+  }
+  @override
+  public void sleep() {
+    System.out.println("The dog is sleeping.")
+  }
+}
+
+```
+
+###### Abstract Classes
+
