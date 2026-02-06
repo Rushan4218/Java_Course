@@ -12,7 +12,6 @@ public class Account {
       balance -= withdrawAmount;
       System.out.println("Transaction Successful");
       System.out.println("Remaining balance: " + balance);
-      return;
     }
   }
 }

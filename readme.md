@@ -113,3 +113,13 @@ public class Dog implements Animal {
 
 ###### Abstract Classes
 
+#### Day 8
+###### File handling (I/O stream)
+- **Byte Stream**
+  - OutputStream 
+    - FileOutputStream
+  - Input Stream
+- **Character Stream**
+  - Writer 
+  - Reader
+- **Object Stream**
