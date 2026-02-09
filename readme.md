@@ -136,3 +136,21 @@ public class Dog implements Animal {
 
 #### Day 9
 - Markable Interface 
+
+
+#### Day 10
+###### Exceptions and Errors
+- Exceptions can be handled
+- Errors cannot be handled
+###### Types of Exceptions 
+- **Checked Exception**
+  - IOException
+  - ArithematicException
+- **Unchecked Exception**
+  - ArrayOutOfBound
+  - ClassNotFound
+###### Exception handling mechanism
+- try...catch 
+- try...catch...finally 
+- throws
+- Throw
