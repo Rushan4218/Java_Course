@@ -1,23 +1,26 @@
-## JAVA COURSE 
+# JAVA COURSE
 
-#### Day 1
+## Day 1
 
 **1. Installation**
 [Visit This Site](https://jdk.java.net/25/)
 
 - For Arch Linux based operating systems
-```
+
+```bash
 sudo pacman -S jdk-openjdk
 ```
 
 - For Ubuntu/Debian based OS
-```
+
+```bash
 sudo apt update
 sudo apt install openjdk-21-jdk # check list of available versions
 ```
 
 - For Fedora
-```
+
+```bash
 sudo dnf update 
 sudo dnf install java-21-openjdk java-21-openjdk-devel
 ```
@@ -34,23 +37,27 @@ javac -version
 ```
 
 **3. Running Java Program**
-```
+
+```bash
 javac basic-1/Main.java # Compiles the program
 java basic-1/Main # Runs the program
 ```
 
+## Day 2
 
-#### Day 2
-_Yet to add content_
-#### Day 3
 _Yet to add content_
 
-#### Day 4
+## Day 3
+
 _Yet to add content_
 
-#### Day 5
+## Day 4
 
-###### Array 
+_Yet to add content_
+
+## Day 5
+
+###Array 
 
 **Basic Syntax**
 ```java
@@ -58,7 +65,7 @@ int[] numbers = {1, 2, 3, 4, 5};
 int numbers[] = {1, 2, 3, 4, 5}
 ```
 
-###### Collection
+###Collection
 **Basic Syntax**
 ```java
 Collection<datatype> identifier = new Collection<datatype>();
@@ -68,7 +75,7 @@ _Collection only supports object so if you use `int` you'll get an error._
 Collection<Integer> numbers = new Collection<int>();
 ```
 
-###### Inheritance 
+###Inheritance 
 
 **Types of inheritance**
 - **Simple**: One child class inherits from one parent class.
@@ -78,7 +85,7 @@ Collection<Integer> numbers = new Collection<int>();
 
 _Multiple inheritance is not directly supported by Java_
 
-###### Interface
+###Interface
 Interface in java is a collection of abstract methods and constants. It is used to define a blueprint for any class that implements it.
 
 **Characteristics of Interfaces:**
@@ -111,46 +118,69 @@ public class Dog implements Animal {
 
 ```
 
-###### Abstract Classes
+### Abstract Classes
 
-#### Day 8
-###### File handling (I/O stream)
+## Day 8
+
+### File handling (I/O stream)
+
 - **Byte Stream**
-  - OutputStream (Abstract) 
+  - OutputStream (Abstract)
     - FileOutputStream
     - BufferOutputStream
   - InputStream (Abstract)
     - FileInputStream
     - BufferInputStream
 - **Character Stream**
-  - Writer 
+  - Writer
     - FileWriter
     - BufferWriter
   - Reader
-   - FileReader
-   - BufferReader
+    - FileReader
+    - BufferReader
 - **Object Stream**
   - ObjectOutputStream
   - ObjectInputStream
 
+## Day 9
 
-#### Day 9
-- Markable Interface 
+- Markable Interface
 
+## Day 10
 
-#### Day 10
-###### Exceptions and Errors
+### Exceptions and Errors
+
 - Exceptions can be handled
 - Errors cannot be handled
-###### Types of Exceptions 
+
+### Types of Exceptions
+
 - **Checked Exception**
   - IOException
   - ArithematicException
 - **Unchecked Exception**
   - ArrayOutOfBound
   - ClassNotFound
-###### Exception handling mechanism
-- try...catch 
-- try...catch...finally 
+
+### Exception handling mechanism
+
+- try...catch
+- try...catch...finally
 - throws
 - Throw
+
+## Day 11
+
+### Polymorphism [poly: many, morph: form]
+
+- **Overloading (Compile time polymorphism)**
+  - Same level
+  - Same name, different signature
+  - Operator, method, constructor
+- **Overriding (Run time polymorphism)**
+  - Different level  
+  - Same name, same signature
+
+
+
+
