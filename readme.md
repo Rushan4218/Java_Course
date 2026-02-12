@@ -21,7 +21,7 @@ sudo apt install openjdk-21-jdk # check list of available versions
 - For Fedora
 
 ```bash
-sudo dnf update 
+sudo dnf update
 sudo dnf install java-21-openjdk java-21-openjdk-devel
 ```
 
@@ -31,6 +31,7 @@ sudo dnf install java-21-openjdk java-21-openjdk-devel
 
 **2. Verify Installation**
 Open any terminal
+
 ```
 java -version
 javac -version
@@ -57,9 +58,10 @@ _Yet to add content_
 
 ## Day 5
 
-###Array 
+###Array
 
 **Basic Syntax**
+
 ```java
 int[] numbers = {1, 2, 3, 4, 5};
 int numbers[] = {1, 2, 3, 4, 5}
@@ -67,20 +69,24 @@ int numbers[] = {1, 2, 3, 4, 5}
 
 ###Collection
 **Basic Syntax**
+
 ```java
 Collection<datatype> identifier = new Collection<datatype>();
 ```
+
 _Collection only supports object so if you use `int` you'll get an error._
+
 ```java
 Collection<Integer> numbers = new Collection<int>();
 ```
 
-###Inheritance 
+###Inheritance
 
 **Types of inheritance**
+
 - **Simple**: One child class inherits from one parent class.
 - **Hierarchical**: Multiple child classes inherits from one parent class.
-- **Multi-Level**: A class inherits from a class which is already inherited from another class. 
+- **Multi-Level**: A class inherits from a class which is already inherited from another class.
 - **Multiple**: A class inherits from more than one parent class.
 
 _Multiple inheritance is not directly supported by Java_
@@ -178,9 +184,9 @@ public class Dog implements Animal {
   - Same name, different signature
   - Operator, method, constructor
 - **Overriding (Run time polymorphism)**
-  - Different level  
+  - Different level
   - Same name, same signature
 
+## Day 12
 
-
-
+### Encapsulation
