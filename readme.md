@@ -190,3 +190,36 @@ public class Dog implements Animal {
 ## Day 12
 
 ### Encapsulation
+
+## Day 13
+
+### AWT vs Swing
+
+| Awt                | Swing                |
+| ------------------ | -------------------- |
+| Heavy Weight       | Light weight         |
+| Platform Dependent | Platform Independent |
+
+### Swing Components
+
+- **Container**
+  - Window
+    - JFrame
+    - JDialogBox
+  - Panel
+    - JPanel
+- **JComponents**
+  - JButton
+  - JLabel
+  - JTestField
+  - JRadioButton
+
+## Day 14
+
+### Layout Manager
+
+- Border Layout
+- Flow Layout
+- Grid Layout
+- Card Layout
+- null

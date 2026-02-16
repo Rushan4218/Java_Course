@@ -1,0 +1,2 @@
+- Implement all layouts
+  - For null layout (make an E shape from panels)
